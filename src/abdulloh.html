@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./output.css">
 </head>
+
 <body>
     <nav class="max-w-300 m-auto w-[90%] flex justify-between items-center py-5">
         <div>
@@ -21,7 +23,7 @@
             <a href="./abdulloh.html">
                 <p>Ипотека</p>
             </a>
-              <select class="outline-none" name="" id="">
+            <select class="outline-none" name="" id="">
                 <option value="">Наши проекты</option>
             </select>
             <p>Контакты</p>
@@ -39,5 +41,194 @@
             </div>
         </div>
     </nav>
+
+    <main>
+        <section class="bg-[url('./img/img.png')] bg-no-repeat bg-cover text-white py-25 lg:py-30">
+            <div class="max-w-300 m-auto w-[90%] flex flex-col gap-8 items-center justify-center">
+                <h1 class="lg:text-[100px] text-center text-[46px] font-bold">ИПОТЕКА ОТ <span
+                        class="lg:bg-[#FFFFFF] border  border-white text-[#EFA359] px-4">4%</span></h1>
+                <div class="text-center">
+                    <p class="lg:w-244 lg:text-[30px] tex-[18px]">Уникальные ипотечные программы на специальных
+                        условиях. Просто заполните анкету и получите одобрение.</p>
+                    <p class="lg:text-[30px] text-[18px] font-bold">Всего шаг — до дома вашей мечты!</p>
+                </div>
+                <div>
+                    <button class="bg-[#EFA359] py-3 px-15">Расчитать платёж</button>
+                </div>
+            </div>
+        </section>
+        <section class="max-w-300 m-auto w-[90%] lg:flex lg:justify-between my-20">
+            <div class="lg:w-105 ">
+                <h1 class="lg:text-[48px] text-[30px] font-medium mb-10">Ипотека</h1>
+                <form class="flex flex-col gap-7" action="">
+                    <div class="flex  gap-3 flex-col lg:flex-row">
+                        <div>
+                            <p>Вид недвижимости</p>
+                            <select class="outline-none bg-[#F7F8F8] px-2 py-2 w-full lg:pr-50" name="" id="">
+                                <option value="">Все</option>
+                            </select>
+                        </div>
+                        <div>
+                            <p>Проект</p>
+                            <select class="outline-none bg-[#F7F8F8] px-2 py-2 w-full lg:pr-25 " name="" id="">
+                                <option value="">Все</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+
+                        <p>Вид ипотеки</p>
+                        <select class="outline-none bg-[#F7F8F8] px-2 py-2 w-full " name="" id="">
+                            <option value="">Все</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>Стоимость</p>
+                        <input class="bg-[#F7F8F8] outline-none w-full py-2 px-2" type="text" placeholder="3 000 000 $">
+                    </div>
+                    <div>
+
+                        <p>Первоначальный взнос</p>
+                        <input class="bg-[#F7F8F8] outline-none w-full py-2 px-2" type="text"
+                            placeholder="2 000 000 $ ">
+                    </div>
+                    <div>
+
+                        <p>Ежемесячный платёж</p>
+                        <input class="bg-[#F7F8F8] outline-none w-full py-2 px-2" type="text" placeholder="60 000 $">
+                    </div>
+                    <div>
+                        <button class="bg-[#EFA359] py-3 w-full hover:cursor-pointer text-white">Расчитать
+                            платёж</button>
+                    </div>
+                </form>
+            </div>
+            <div class="hidden  lg:block">
+                <div class="lg:flex gap-5 hidden ">
+                    <div class="border w-fit p-5 pr-10">
+                        <div class="flex items-center gap-2">
+                            <img class="w-6" src="./img/Vector (33).png" alt="">
+                            <p class=" text-[28px] font-semibold">АО “Альфа банк”</p>
+                        </div>
+                        <div class="p-5 pl-7">
+                            <p class="text-[20px]">Ставка <br>
+                                <span class="font-bold text-[36px]">4,1 % </span> <br>
+                                от 4 000 / мес
+                            </p>
+                            <p class="text-[20px] font-bold">Программа <br>
+                                Семейная</p>
+                        </div>
+                    </div>
+                    <div class="border w-fit p-5 pr-10">
+                        <div class="flex items-center gap-2">
+                            <img class="w-6" src="./img/Vector (34).png" alt="">
+                            <p class=" text-[28px] font-semibold">Банк ВТБ (ПАО)</p>
+                        </div>
+                        <div class="p-5 pl-7">
+                            <p class="text-[20px]">Ставка <br>
+                                <span class="font-bold text-[36px]">6 % </span> <br>
+                                от 4 000 / мес
+                            </p>
+                            <p class="text-[20px] font-bold">Программа <br>
+                                Семейная</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:flex gap-5 mt-5 hidden">
+                    <div class="border w-fit p-5 pr-17">
+                        <div class="flex items-center gap-2">
+                            <img class="w-6" src="./img/Group 209.png" alt="">
+                            <p class=" text-[28px] font-semibold">ПАО Сбербанк</p>
+                        </div>
+                        <div class="p-5 pl-7">
+                            <p class="text-[20px]">Ставка <br>
+                                <span class="font-bold text-[36px]">4 % </span> <br>
+                                от 4 000 / мес
+                            </p>
+                            <p class="text-[20px] font-bold">Программа <br>
+                                Семейная</p>
+                        </div>
+                    </div>
+                    <div class="border w-fit p-5 pr-12">
+                        <div class="flex items-center gap-2">
+                            <img class="w-6" src="./img/sovcombank-svgrepo-com 1.png" alt="">
+                            <p class=" text-[28px] font-semibold">ПАО Сбербанк</p>
+                        </div>
+                        <div class="p-5 pl-7">
+                            <p class="text-[20px]">Ставка <br>
+                                <span class="font-bold text-[36px]">4 % </span> <br>
+                                от 4 000 / мес
+                            </p>
+                            <p class="text-[20px] font-bold">Программа <br>
+                                Семейная</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="flex flex-col gap-10 my-15">
+            <div
+                class="bg-[#F2F2F2] max-w-300 m-auto w-[90%] flex justify-between items-center flex-col lg:flex-row gap-10">
+                <div class="flex flex-col gap-5 lg:pl-10 p-5">
+                    <h1 class="lg:text-[50px] text-[30px] font-medium lg:w-130">Ипотечные кредиты</h1>
+                    <p class="lg:w-160 lg:text-[25px] text-[16px] ">Выгодная ипотечная программы и специальные условия.
+                        Просто заполните анкету и получите одобрение.
+                        Всего один шаг, и дом — ваш. Ставка действует весь срок до 30 лет при сумме кредита до 100 млн
+                        рублей и первом взносе от 13,7%.</p>
+                    <div class="flex justify-center lg:justify-start">
+                        <button class="border border-[#EFA359] py-3 px-10">Рассчитать платёж</button>
+                    </div>
+                </div>
+                <div>
+                    <img class="lg:w-130" src="./img/Rectangle 144.png" alt="">
+                </div>
+            </div>
+
+            <div class="max-w-300 m-auto w-[90%] lg:flex justify-between hidden ">
+                <div class="bg-[#F2F2F2] flex items-center gap-10 w-fit">
+                    <div class="pl-10 flex flex-col gap-5">
+                        <h1 class="text-[30px] font-bold lg:w-65">Семейная ипотека</h1>
+                        <p class="lg:w-65 text-[20px]">Воспользоваться программой «Семейная ипотека» возможно до 1 июля 2024 года при рождении
+                            первого ребенка или последующих детей.</p>
+                        <div class="flex justify-center lg:justify-start">
+                            <button class="border border-[#EFA359] py-3 px-10">Рассчитать платёж</button>
+                        </div>
+                    </div>
+                    <div>
+                        <img class="w-60" src="./img/Rectangle 147.png" alt="">
+                    </div>
+                </div>
+                <div class="bg-[#F2F2F2] flex items-center gap-10 w-fit">
+                    <div class="pl-10 flex flex-col gap-5">
+                        <h1 class="text-[30px] font-bold lg:w-65">Господдержка 2023</h1>
+                        <p class="lg:w-65 text-[20px]">Ипотеку с господдержкой могут получить граждане России, у которых есть постоянная регистрация, официальная работа и стабильный доход.</p>
+                        <div class="flex justify-center lg:justify-start">
+                            <button class="border border-[#EFA359] py-3 px-10">Рассчитать платёж</button>
+                        </div>
+                    </div>
+                    <div>
+                        <img class="w-60" src="./img/Rectangle 147 (1).png" alt="">
+                    </div>
+                </div>
+            </div>
+
+             <div
+                class="bg-[#F2F2F2] max-w-300 m-auto w-[90%] lg:flex justify-between items-center flex-col lg:flex-row gap-10 hidden ">
+                <div class="flex flex-col gap-5 lg:pl-10 p-5">
+                    <h1 class="lg:text-[50px] text-[30px] font-medium lg:w-130">IT специалистам</h1>
+                    <p class="lg:w-160 lg:text-[25px] text-[16px] ">Оформить ипотеку по сниженной ставке может гражданин России, трудоустроенный в компании, которая работает в сфере информационных технологий. Возраст — от 18 до 50 лет включительно.
+Стаж — не менее 3 месяцев на текущем месте работы.</p>
+                    <div class="flex justify-center lg:justify-start">
+                        <button class="border border-[#EFA359] py-3 px-10">Рассчитать платёж</button>
+                    </div>
+                </div>
+                <div>
+                    <img class="lg:w-130" src="./img/Rectangle 144 (1).png" alt="">
+                </div>
+            </div>
+
+        </section>
+    </main>
 </body>
+
 </html>
