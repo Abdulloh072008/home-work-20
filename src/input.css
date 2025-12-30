@@ -1,1 +1,8 @@
 @import "tailwindcss";
+.bgimag
+{
+    background-image: url("./fhoto/bilol.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
