@@ -1,8 +1,15 @@
 @import "tailwindcss";
-.bgimag
-{
+.bgimag {
     background-image: url("./fhoto/bilol.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.bg_xurshed {
+    background-image: url("./images_xurshed/Rectangle\ 37.png");
+}
+
+.btnxurshed {
+    border: 1px solid #EFA35A;
 }
